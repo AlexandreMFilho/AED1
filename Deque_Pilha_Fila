@@ -1,0 +1,26 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Deque : Estrutura de dados que origina a pilha e a fila.
+Suas funções de Busca, Remoção e Inserção são feitos de ambas as pontas da lista (inicio e fim).
+
+	Insere, Remove, Busca ---> [1,2,3,4,...,N] <--- Insere, Remove, Busca
+
+	 Insere, Remove, Busca-->	o->O->O->O->...->O  <-- Insere, Remove, Busca
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Pilhas : É um tipo de Deque. Suas particularidades são que suas funções de Busca, Remoção e Inserção são feios apenas no fim da lista e para maior adequação são renomeados para Topo, Desempilha e Empilha respectivamente.
+	
+	[1,2,3,4,...,N] <--- Empilha, Desempilha, Topo
+	
+	o->O->O->O->...->O  <-- Empilha, Desempilha, Topo
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Fila : Outro tipo de Deque. Nesse suas funções de Busca e Remoção são feitos no inicio da fila e a Inserção no fim da mesma. E para melhor adequação também são renomeadas para Próximo, Desenfileira e Enfileira. 
+
+	Próximo, Desenfileira ---> [1,2,3,4,...,N] <--- Enfileira
+
+	 Próximo, Desenfileira -->	o->O->O->O->...->O  <-- Enfileira
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+	
